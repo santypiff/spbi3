@@ -1,10 +1,10 @@
 #!/bin/fish
-/workspaces/lq-PostGresSqlPanty/lq/pnp.fish
-/workspaces/lq-PostGresSqlPanty/lq/fixrs.fish
-/workspaces/lq-PostGresSqlPanty/lq/st.sh
-/workspaces/lq-PostGresSqlPanty/lq/aryt.fish
-/workspaces/lq-PostGresSqlPanty/lq/tgpt.fish
-/workspaces/lq-PostGresSqlPanty/lq/bun.fish
-/workspaces/lq-PostGresSqlPanty/lq/tmuxx.fish
+/workspaces/spbi3/sp/pnp.fish
+/workspaces/spbi3/sp/fixrs.fish
+/workspaces/spbi3/sp/st.sh
+/workspaces/spbi3/sp/aryt.fish
+/workspaces/spbi3/sp/tgpt.fish
+/workspaces/spbi3/sp/bun.fish
+/workspaces/spbi3/sp/tmuxx.fish
 
 

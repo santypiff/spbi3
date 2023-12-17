@@ -1,2 +1,10 @@
 Scratch 
 --..
+//8000-8fff
+//9000-9fff
+//a000-bfff
+//c000-dfff
+//e000-ffff
+- Booty Dancers 
+- The House of the Dead
+- Sniffer and Lickers 

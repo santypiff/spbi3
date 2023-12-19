@@ -1,5 +1,5 @@
 {
-  "index": "Introduction",
+  "index": "BoycottisNOTreal",
   "another": "Another Page",
   "advanced": "Advanced (A Folder)",
   "about": {
@@ -9,7 +9,7 @@
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://www.icc-cpi.int/",
     "newWindow": true
   }
 }

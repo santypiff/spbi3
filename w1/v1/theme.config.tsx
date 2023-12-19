@@ -23,6 +23,12 @@ const config: DocsThemeConfig = {
     prev: true,
     next: true,
   },
+  feedback: {
+    content: null,
+  },
+  editLink: {
+    text: null,
+  },
 };
 
 export default config;

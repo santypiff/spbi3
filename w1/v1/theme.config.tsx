@@ -19,6 +19,10 @@ const config: DocsThemeConfig = {
   footer: {
     text: "𝒻𝓇𝑜𝓂 𝓉𝒽𝑒 𝓇𝒾𝓋𝑒𝓇 𝓉𝑜𝓉 𝒽𝑒 𝓈𝑒𝒶 𝓅𝒶𝓁𝑒𝓈𝓉𝒾𝓃𝑒 𝓌𝒾𝓁𝓁 𝒷𝑒 𝒻𝓇𝑒𝑒",
   },
+  navigation: {
+    prev: true,
+    next: true,
+  },
 };
 
 export default config;

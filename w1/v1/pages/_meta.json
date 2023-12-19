@@ -6,8 +6,8 @@
     "title": "About",
     "type": "page"
   },
-  "contact": {
-    "title": "Contact ↗",
+  "Talk": {
+    "title": "Talk ↗",
     "type": "page",
     "href": "https://www.icc-cpi.int/",
     "newWindow": true

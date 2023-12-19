@@ -1,18 +1,12 @@
-import React from 'react'
-import { DocsThemeConfig } from 'nextra-theme-docs'
+import React from "react";
+import { DocsThemeConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
-  logo: <span>My Booba</span>,
-  project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
-  },
-  chat: {
-    link: 'https://discord.com',
-  },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  logo: <span>NoIsrl</span>,
+  docsRepositoryBase: "https://github.com/shuding/nextra-docs-template",
   footer: {
-    text: 'MainBoobs',
+    text: "From the river to the sea, Palestine will be free",
   },
-}
+};
 
-export default config
+export default config;

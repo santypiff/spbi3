@@ -3,12 +3,12 @@ import { DocsThemeConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
   logo: <span>𝕟𝕠𝕚𝕤𝕣𝕝</span>,
-  docsRepositoryBase: "https://github.com/shuding/nextra-docs-template",
+  docsRepositoryBase: "https://www.icc-cpi.int/contact/",
   head: (
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta property="og:title" content="Nextra" />
-      <meta property="og:description" content="The next site builder" />
+      <meta property="og:title" content="𝕟𝕠𝕚𝕤𝕣𝕝" />
+      <meta property="og:description" content="𝕟𝕠𝕚𝕤𝕣𝕝" />
       <link
         rel="icon"
         href="https://i.ibb.co/ZMdj0Ks/u-http-www-israelandstuff-com-wp-content-uploads-2015-09-Boycott-Israel.png"

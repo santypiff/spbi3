@@ -29,6 +29,11 @@ const config: DocsThemeConfig = {
   editLink: {
     text: null,
   },
+  useNextSeoProps() {
+    return {
+      titleTemplate: "%s - 💗🇵🇸",
+    };
+  },
 };
 
 export default config;

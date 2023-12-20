@@ -1,9 +1,10 @@
 {
   "index": "⛔BoycottisNOTreal",
-  "OpSec": "OpSec",
+  "OpSec": "🥷OpSec",
   "about": {
-    "title": "About",
-    "type": "page"
+    "title": "⚔️ About",
+    "type": "page",
+    "newWindow": true
   },
   "Talk": {
     "title": "Talk ↗",

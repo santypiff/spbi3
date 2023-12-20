@@ -9,6 +9,28 @@ const config: DocsThemeConfig = {
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta property="og:title" content="𝕟𝕠𝕚𝕤𝕣𝕝" />
       <meta property="og:description" content="𝕟𝕠𝕚𝕤𝕣𝕝" />
+      <meta property="og:url" content="https://noisrl.vercel.app/"></meta>
+      <meta property="og:type" content="website"></meta>
+      <meta property="og:title" content="𝕟𝕠𝕚𝕤𝕣𝕝"></meta>
+      <meta
+        property="og:description"
+        content="Extracted duas from youtube video"
+      ></meta>
+      <meta
+        property="og:image"
+        content="https://i.ibb.co/3BQWK09/c2.jpg"
+      ></meta>
+
+      <meta name="twitter:card" content="summary_large_image"></meta>
+      <meta property="twitter:domain" content="noisrl.vercel.app"></meta>
+      <meta property="twitter:url" content="https://noisrl.vercel.app/"></meta>
+      <meta name="twitter:title" content="𝕟𝕠𝕚𝕤𝕣𝕝"></meta>
+      <meta name="twitter:description" content="𝕟𝕠𝕚𝕤𝕣𝕝"></meta>
+      <meta
+        name="twitter:image"
+        content="https://i.ibb.co/3BQWK09/c2.jpg"
+      ></meta>
+
       <link
         rel="icon"
         href="https://i.ibb.co/ZMdj0Ks/u-http-www-israelandstuff-com-wp-content-uploads-2015-09-Boycott-Israel.png"

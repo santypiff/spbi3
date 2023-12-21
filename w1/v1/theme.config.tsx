@@ -12,10 +12,7 @@ const config: DocsThemeConfig = {
       <meta property="og:url" content="https://noisrl.vercel.app/"></meta>
       <meta property="og:type" content="website"></meta>
       <meta property="og:title" content="𝕟𝕠𝕚𝕤𝕣𝕝"></meta>
-      <meta
-        property="og:description"
-        content="Extracted duas from youtube video"
-      ></meta>
+      <meta property="og:description" content="𝕟𝕠𝕚𝕤𝕣𝕝"></meta>
       <meta
         property="og:image"
         content="https://i.ibb.co/3BQWK09/c2.jpg"

@@ -1,0 +1,20 @@
+Sun Dec 31 14:26:14 UTC 2023
+Whois Report
+
+ Domain Name: HAMAS.COM
+   Registry Domain ID: 15782009_DOMAIN_COM-VRSN
+   Registrar WHOIS Server: whois.wix.com
+   Registrar URL: http://www.wix.com
+   Updated Date: 2023-11-26T13:36:03Z
+   Creation Date: 1999-12-21T18:47:35Z
+   Registry Expiry Date: 2033-11-15T05:19:27Z
+   Registrar: Wix.com Ltd.
+   Registrar IANA ID: 3817
+   Registrar Abuse Contact Email: domain-abuse@wix.com
+   Registrar Abuse Contact Phone: +14154291173
+   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+   Name Server: EVAN.NS.CLOUDFLARE.COM
+   Name Server: JILLIAN.NS.CLOUDFLARE.COM
+   DNSSEC: unsigned
+   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/

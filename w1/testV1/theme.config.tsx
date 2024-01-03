@@ -2,7 +2,7 @@ import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
-  logo: <span>𝕟𝕠𝕚𝕤𝕣𝕝</span>,
+  logo: <span>🔻 𝕟𝕠𝕚𝕤𝕣𝕝</span>,
   docsRepositoryBase: "https://www.icc-cpi.int/contact/",
   head: (
     <>
@@ -47,6 +47,15 @@ const config: DocsThemeConfig = {
   },
   editLink: {
     text: null,
+  },
+  primaryHue: { dark: 137, light: 225 },
+  banner: {
+    key: "Tech4Palestine",
+    text: (
+      <a href="https://techforpalestine.org/" target="_blank">
+        🇵🇸 #SaveGaza: Call For A Ceasefire Now! 🇵🇸 ➡️
+      </a>
+    ),
   },
   useNextSeoProps() {
     return {

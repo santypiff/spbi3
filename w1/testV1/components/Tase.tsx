@@ -5,36 +5,29 @@ const TradingViewWidget: React.FC = () => {
     const script = document.createElement("script");
     script.type = "text/javascript";
     script.src =
-      "https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js";
+      "https://s3.tradingview.com/external-embedding/embed-widget-hotlists.js";
     script.async = true;
     script.innerHTML = JSON.stringify({
-      symbols: [
-        {
-          proName: "FOREXCOM:SPXUSD",
-          title: "S&P 500",
-        },
-        {
-          proName: "FOREXCOM:NSXUSD",
-          title: "US 100",
-        },
-        {
-          proName: "FX_IDC:EURUSD",
-          title: "EUR to USD",
-        },
-        {
-          proName: "BITSTAMP:BTCUSD",
-          title: "Bitcoin",
-        },
-        {
-          proName: "BITSTAMP:ETHUSD",
-          title: "Ethereum",
-        },
-      ],
-      showSymbolLogo: true,
-      isTransparent: false,
-      displayMode: "adaptive",
       colorTheme: "dark",
+      dateRange: "12M",
+      exchange: "TASE",
+      showChart: true,
       locale: "en",
+      largeChartUrl: "",
+      isTransparent: false,
+      showSymbolLogo: true,
+      showFloatingTooltip: false,
+      width: "600",
+      height: "600",
+      plotLineColorGrowing: "rgba(41, 98, 255, 1)",
+      plotLineColorFalling: "rgba(41, 98, 255, 1)",
+      gridLineColor: "rgba(240, 243, 250, 0)",
+      scaleFontColor: "rgba(106, 109, 120, 1)",
+      belowLineFillColorGrowing: "rgba(41, 98, 255, 0.12)",
+      belowLineFillColorFalling: "rgba(41, 98, 255, 0.12)",
+      belowLineFillColorGrowingBottom: "rgba(41, 98, 255, 0)",
+      belowLineFillColorFallingBottom: "rgba(41, 98, 255, 0)",
+      symbolActiveColor: "rgba(41, 98, 255, 0.12)",
     });
 
     const container = document.getElementsByClassName(

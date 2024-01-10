@@ -17,7 +17,7 @@ const TradingViewWidget: React.FC = () => {
       isTransparent: false,
       showSymbolLogo: true,
       showFloatingTooltip: false,
-      width: "600",
+      width: "350",
       height: "600",
       plotLineColorGrowing: "rgba(41, 98, 255, 1)",
       plotLineColorFalling: "rgba(41, 98, 255, 1)",

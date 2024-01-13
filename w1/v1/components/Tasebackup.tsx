@@ -1,8 +1,6 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 
 const TradingViewWidget: React.FC = () => {
-  const containerRef = useRef<HTMLDivElement>(null);
-
   useEffect(() => {
     const script = document.createElement("script");
     script.type = "text/javascript";
@@ -32,19 +30,18 @@ const TradingViewWidget: React.FC = () => {
       symbolActiveColor: "rgba(41, 98, 255, 0.12)",
     });
 
-    if (containerRef.current) {
-      containerRef.current.appendChild(script);
-    }
+    const container = document.getElementsByClassName(
+      "tradingview-widget-container"
+    )[0];
+    container.appendChild(script);
 
     return () => {
-      if (containerRef.current && containerRef.current.contains(script)) {
-        containerRef.current.removeChild(script);
-      }
+      container.removeChild(script);
     };
   }, []);
 
   return (
-    <div className="tradingview-widget-container" ref={containerRef}>
+    <div className="tradingview-widget-container">
       <div className="tradingview-widget-container__widget"></div>
       <div className="tradingview-widget-copyright">
         <a
